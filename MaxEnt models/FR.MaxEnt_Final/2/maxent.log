@@ -1,0 +1,35 @@
+Mon Jan 13 12:58:55 CET 2025
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 536870912, total allocated 234881024, free 50648592, used 184232432, increment 48615136
+Reading samples from presence
+Read samples: max memory 536870912, total allocated 234881024, free 158299232, used 76581792, increment -107650640
+Adding samples to background in feature space
+Command line used:  autorun -e ./FR.MaxEnt_Final/2/absence -o ./FR.MaxEnt_Final/2 -s ./FR.MaxEnt_Final/2/presence -z
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=./FR.MaxEnt_Final/2 samplesfile=./FR.MaxEnt_Final/2/presence environmentallayers=./FR.MaxEnt_Final/2/absence autorun novisible
+Species: species
+Layers: CLASSIFIED.TPI COST.TIME.FROM.RIVERS HEIGHT.AT.SITES NUMBER.OF.ANYSIZE.SITES.IN.SIGHT SOLAR.IRRADIATION.AT.SITE TPI.3000M TPI.300M X..OF.VIEWVED.AREA.IN.3KM.BUFFER
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: ./FR.MaxEnt_Final/2
+samplesfile: ./FR.MaxEnt_Final/2/presence
+environmentallayers: ./FR.MaxEnt_Final/2/absence
+autorun: true
+visible: false
+
+getSamples: max memory 536870912, total allocated 234881024, free 157758544, used 77122480, increment 540688
+Making features
+makeFeatures: max memory 536870912, total allocated 234881024, free 156157280, used 78723744, increment 1601264
+species: 
+Regularization values: linear/quadratic/product: 0.204, categorical: 0.250, threshold: 1.540, hinge: 0.500
+46 samples
+Density: max memory 536870912, total allocated 234881024, free 151263232, used 83617792, increment 4894048
+linearPredictor: max memory 536870912, total allocated 234881024, free 151229064, used 83651960, increment 34168
+FeaturedSpace: max memory 536870912, total allocated 234881024, free 151229064, used 83651960, increment 0
+Sequential: max memory 536870912, total allocated 234881024, free 151229064, used 83651960, increment 0
+Initial loss: 8.359134886757962
+Time since start: 2.33
+500: time = 2,262000 loss = 6,705969
+Resulting gain: 1.6531657529958927
+Projecting...
+Writing file .\FR.MaxEnt_Final\2\species.csv
+Ending
