@@ -12,9 +12,11 @@ Set the wd in a folder with all the data
 Activate the following packages:
 
 Code for activating Java in computer (May need to be adapted)
+
 Sys.setenv(JAVA_HOME = "C:/Program Files/OpenJDK/jdk-23.0.1")
 
 List of nescessary packages:
+
 packages <- c("terra","sf","dplyr","devtools","viewscape","spatstat","MASS","corrplot","dismo","rJava")
 
 for (package in packages) {
