@@ -1,0 +1,43 @@
+Fri Jan 17 11:14:37 CET 2025
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 536870912, total allocated 234881024, free 181322472, used 53558552, increment -91103320
+Reading samples from presence
+Read samples: max memory 536870912, total allocated 234881024, free 150389480, used 84491544, increment 30932992
+Adding samples to background in feature space
+Command line used:  autorun -e .MaxEnt models/MaxEnt/3/absence -o .MaxEnt models/MaxEnt/3 -s .MaxEnt models/MaxEnt/3/presence -z
+Command line to repeat: java density.MaxEnt nowarnings noprefixes "outputdirectory=.MaxEnt models/MaxEnt/3" "samplesfile=.MaxEnt models/MaxEnt/3/presence" "environmentallayers=.MaxEnt models/MaxEnt/3/absence" autorun novisible noprefixes -t CLASSIFIED.TPI
+Species: species
+Layers: CLASSIFIED.TPI COST.TIME.FROM.RIVERS HEIGHT.AT.SITES NUMBER.OF.ANYSIZE.SITES.IN.SIGHT SOLAR.IRRADIATION.AT.SITE TPI.3000M TPI.300M X..OF.VIEWVED.AREA.IN.3KM.BUFFER
+Layertypes: Categorical Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: .MaxEnt models/MaxEnt/3
+samplesfile: .MaxEnt models/MaxEnt/3/presence
+environmentallayers: .MaxEnt models/MaxEnt/3/absence
+autorun: true
+visible: false
+prefixes: false
+
+getSamples: max memory 536870912, total allocated 234881024, free 149865192, used 85015832, increment 524288
+Making features
+makeFeatures: max memory 536870912, total allocated 234881024, free 148805984, used 86075040, increment 1059208
+species: 
+Regularization values: linear/quadratic/product: 0.196, categorical: 0.250, threshold: 1.510, hinge: 0.500
+49 samples
+Density: max memory 536870912, total allocated 234881024, free 142525160, used 92355864, increment 6280824
+linearPredictor: max memory 536870912, total allocated 234881024, free 142525160, used 92355864, increment 0
+Deactivating (CLASSIFIED.TPI=1.0)
+Deactivating (CLASSIFIED.TPI=2.0)
+Deactivating (CLASSIFIED.TPI=3.0)
+Deactivating (CLASSIFIED.TPI=4.0)
+Deactivating (CLASSIFIED.TPI=8.0)
+Deactivating (CLASSIFIED.TPI=10.0)
+Deactivating (CLASSIFIED.TPI=12.0)
+FeaturedSpace: max memory 536870912, total allocated 234881024, free 142525160, used 92355864, increment 0
+Sequential: max memory 536870912, total allocated 234881024, free 142525160, used 92355864, increment 0
+Initial loss: 8.359134886757962
+Time since start: 2.557
+500: time = 2,416000 loss = 6,574396
+Resulting gain: 1.7847393699108371
+Projecting...
+Writing file .MaxEnt models\MaxEnt\3\species.csv
+Ending
