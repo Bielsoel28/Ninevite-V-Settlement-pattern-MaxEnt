@@ -17,7 +17,7 @@ Sys.setenv(JAVA_HOME = "C:/Program Files/OpenJDK/jdk-23.0.1")
 
 List of nescessary packages:
 
-packages <- c("terra","sf","dplyr","devtools","viewscape","spatstat","MASS","corrplot","dismo","rJava")
+packages <- c("terra","sf","dplyr","devtools","viewscape","corrplot","dismo","rJava")
 
 for (package in packages) {
   install.packages(paquete, character.only = TRUE)
