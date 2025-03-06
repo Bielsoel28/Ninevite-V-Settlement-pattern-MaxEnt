@@ -20,9 +20,9 @@ List of nescessary packages:
 packages <- c("terra","sf","dplyr","devtools","viewscape","corrplot","dismo","rJava")
 
 for (package in packages) {
-  install.packages(paquete, character.only = TRUE)
+  install.packages(package, character.only = TRUE)
 }
 
 for (package in packages) {
-  library(paquete, character.only = TRUE)
+  library(package, character.only = TRUE)
 }
