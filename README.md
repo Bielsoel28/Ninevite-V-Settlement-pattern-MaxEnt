@@ -1,5 +1,6 @@
 # Ninevite-V
-Garcia-Ramis, X.; Soriano-Elias, B. &amp; Molist Montañà, M. (In prep.) Maximum entropy and GIS: An approach to Assessing the Settlement Pattern of Ninevite 5 Culture in Northern Mesopotamia (3000-2500 BCE).
+Biel Soriano-Elias, Francesc Xavier Garcia-Ramis, Miquel Molist,
+Maximum entropy and GIS: An approach to assessing the settlement pattern of the Ninevite 5 culture (3000–2500 BCE) in the Upper Great Zab region (Erbil Province, Kurdistan region of Iraq), Journal of Archaeological Science: Reports, Volume 65, 2025, https://doi.org/10.1016/j.jasrep.2025.105231.
 
 This repository contains all the data and scripts required to fully reproduce all analyses presented in the paper.
 
